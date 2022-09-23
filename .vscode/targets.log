@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue Aug  2 15:12:55 2022
+# Make data base, printed on Fri Sep 23 14:06:54 2022
 
 # Variables
 
@@ -28,6 +28,7 @@ make: *** No rule to make target `all'.  Stop.
 CURDIR := /Users/anna/frontend-project-lvl4
 # makefile
 SHELL = /bin/sh
+ 
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -43,11 +44,13 @@ VSCODE_CWD = /
 # environment
 PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
+LaunchInstanceID = C60A15F4-AC66-4883-805C-71AE919CA273
+# environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.fNbIht08hM/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.1c6e0ixMLq/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -65,11 +68,11 @@ HOME = /Users/anna
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/anna/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /Users/anna/Library/Application Support/Code/CachedData/74b1f979648cc44d385a2286793c226e611f59e7
 # environment
 LOGNAME = anna
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -99,7 +102,7 @@ TMPDIR = /var/folders/p0/m2g2g1w96mdfqfs697mywq9c0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/anna/Library/Application Support/Code/1.69.2-main.sock
+VSCODE_IPC_HOOK = /Users/anna/Library/Application Support/Code/1.71.2-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -109,7 +112,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.2407931.2407937
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.3676218.3676224
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -128,6 +131,8 @@ MAKEFILES :=
 <F = $(notdir $<)
 # environment
 LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a5
 # automatic
 ^F = $(notdir $^)
 # default
@@ -137,9 +142,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 30036
+VSCODE_PID = 423
 # variable set hash-table stats:
-# Load=62/1024=6%, Rehash=0, Collisions=1/85=1%
+# Load=64/1024=6%, Rehash=0, Collisions=1/87=1%
 
 # Pattern-specific Variable Values
 
@@ -147,9 +152,10 @@ VSCODE_PID = 30036
 
 # Directories
 
-# . (device 16777232, inode 2064257): 12 files, no impossibilities.
+# . (device 16777231, inode 2064257): 12 files, no impossibilities.
 
 # 12 files, no impossibilities in 1 directories.
+ 
 
 # Implicit Rules
 
@@ -232,6 +238,6 @@ deploy:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Aug  2 15:12:55 2022
+# Finished Make data base on Fri Sep 23 14:06:54 2022
 
  
